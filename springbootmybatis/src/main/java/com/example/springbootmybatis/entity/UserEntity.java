@@ -1,4 +1,4 @@
-package top.guoyuhang.springbootmybatis.entity;
+package com.example.springbootmybatis.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;

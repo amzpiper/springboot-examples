@@ -10,6 +10,7 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapping/*Mapper.xml
-  type-aliases-package: top.guoyuhang.springbootmybatis.entity
+  type-aliases-package: com.example.springbootmybatis.entity
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+

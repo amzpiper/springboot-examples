@@ -1,10 +1,10 @@
-package top.guoyuhang.springbootmybatis;
+package com.example.springbootmybatis;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootMybatisApplicationTests {
+class SpringbootmybatisApplicationTests {
 
     @Test
     void contextLoads() {

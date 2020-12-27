@@ -1,6 +1,7 @@
-package top.guoyuhang.springbootmybatis.service;
+package com.example.springbootmybatis.service;
 
-import top.guoyuhang.springbootmybatis.entity.UserEntity;
+
+import com.example.springbootmybatis.entity.UserEntity;
 
 import java.util.List;
 

@@ -1,8 +1,8 @@
-package top.guoyuhang.springbootmybatis.controller;
+package com.example.springbootmybatis.controller;
 
+import com.example.springbootmybatis.entity.UserEntity;
+import com.example.springbootmybatis.service.UserService;
 import org.springframework.web.bind.annotation.*;
-import top.guoyuhang.springbootmybatis.entity.UserEntity;
-import top.guoyuhang.springbootmybatis.service.UserService;
 
 import javax.annotation.Resource;
 import java.util.List;

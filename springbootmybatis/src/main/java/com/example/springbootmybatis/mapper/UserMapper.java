@@ -1,7 +1,7 @@
-package top.guoyuhang.springbootmybatis.mapper;
+package com.example.springbootmybatis.mapper;
 
+import com.example.springbootmybatis.entity.UserEntity;
 import org.apache.ibatis.annotations.Mapper;
-import top.guoyuhang.springbootmybatis.entity.UserEntity;
 
 import java.util.List;
 

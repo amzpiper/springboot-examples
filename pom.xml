@@ -9,8 +9,7 @@
     <description>聚合</description>
     <packaging>pom</packaging>
     <modules>
-        <module>springboot-mybatis</module>
-        <module>spring-core</module>
+        <module>springbootmybatis</module>
     </modules>
 
 </project>

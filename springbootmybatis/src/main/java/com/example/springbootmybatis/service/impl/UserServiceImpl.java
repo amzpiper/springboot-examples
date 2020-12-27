@@ -1,9 +1,9 @@
-package top.guoyuhang.springbootmybatis.service.impl;
+package com.example.springbootmybatis.service.impl;
 
+import com.example.springbootmybatis.entity.UserEntity;
+import com.example.springbootmybatis.mapper.UserMapper;
+import com.example.springbootmybatis.service.UserService;
 import org.springframework.stereotype.Service;
-import top.guoyuhang.springbootmybatis.entity.UserEntity;
-import top.guoyuhang.springbootmybatis.mapper.UserMapper;
-import top.guoyuhang.springbootmybatis.service.UserService;
 
 import javax.annotation.Resource;
 import java.util.List;
