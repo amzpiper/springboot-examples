@@ -6,10 +6,11 @@
     <artifactId>springboot-examples</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-examples</name>
-    <description>聚合</description>
+    <description>springboot整合大全</description>
     <packaging>pom</packaging>
     <modules>
         <module>springbootmybatis</module>
+        <module>springbootswagger</module>
     </modules>
 
 </project>

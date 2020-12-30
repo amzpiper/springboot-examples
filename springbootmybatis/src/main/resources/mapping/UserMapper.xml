@@ -20,7 +20,7 @@
 
     <!--  模糊查询根据name  -->
     <select id="findUserLikeName" resultType="com.example.springbootmybatis.entity.UserEntity">
-<!--        <bind name="pattern" value=" '%'+ _name +'%' "/>-->
+        <!--        <bind name="pattern" value=" '%'+ _name +'%' "/>-->
         select id,name,password from t_user where name like concat('%',#{name},'%')
     </select>
 

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/springboot-examples.iml" filepath="$PROJECT_DIR$/.idea/springboot-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootmybatis/springbootmybatis.iml" filepath="$PROJECT_DIR$/springbootmybatis/springbootmybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootswagger/springbootswagger.iml" filepath="$PROJECT_DIR$/springbootswagger/springbootswagger.iml" />
     </modules>
   </component>
 </project>
