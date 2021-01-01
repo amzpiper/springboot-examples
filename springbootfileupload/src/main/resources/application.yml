@@ -1,0 +1,31 @@
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 0
+      location: F:\\temp
+      max-file-size: 2MB
+      max-request-size: 10MB
+      resolve-lazily: false
+#  mvc:
+#    static-path-pattern: /static/**
+#  resources:
+#    static-locations: classpath:/static/
+
+  thymeleaf:
+    cache: false
+    check-template: true
+    check-template-location: true
+    encoding: UTF-8
+    prefix: classpath:/templates
+    servlet:
+      content-type: text/html
+    suffix: .html
+
+server:
+  port: 8080
+
+  #\u83B7\u53D6SpringBoot\u7684\u5F02\u5E38\u5BF9\u8C61exception
+  error:
+    include-exception: true
+

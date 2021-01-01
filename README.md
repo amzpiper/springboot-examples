@@ -2,3 +2,7 @@
 ## springbootmybatis
 ## springbootswagger
 ## springbootbaseconfig
+## springbootthymeleaf
+## springbootfreemarker
+## springbootjackson
+## springbootgson

@@ -14,6 +14,10 @@
         <module>springbootbaseconfig</module>
         <module>springbootthymeleaf</module>
         <module>springbootfreemarker</module>
+        <module>springbootjackson</module>
+        <module>sprinbootgson</module>
+        <module>springbootfastjson</module>
+        <module>springbootfileupload</module>
     </modules>
 
 </project>
