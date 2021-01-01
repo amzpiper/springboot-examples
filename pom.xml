@@ -11,6 +11,9 @@
     <modules>
         <module>springbootmybatis</module>
         <module>springbootswagger</module>
+        <module>springbootbaseconfig</module>
+        <module>springbootthymeleaf</module>
+        <module>springbootfreemarker</module>
     </modules>
 
 </project>
