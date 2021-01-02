@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CORS</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+    </script>
+</head>
+<body>
+
+<div id="deleteResult"></div>
+<div id="contentResult"></div>
+<input type="button" onclick="deleteData()" value="删除数据">
+<input type="button" onclick="getData()" value="提交数据">
+<script>
+    function deleteData() {
+        $.ajax({
+            url:'http://localhost:8080/book/99',
+            type:'delete',
+            success:function (msg) {
+                $("#deleteResult").html(msg);
+            }
+        })
+    }
+    function getData() {
+        $.ajax({
+            url:'http://localhost:8080/book/',
+            type: 'post',
+            data:{name:'三国演义'},
+            success:function (msg) {
+                $("#contentResult").html(msg);
+            }
+        })
+    }
+</script>
+</body>
+</html>
