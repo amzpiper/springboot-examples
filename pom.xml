@@ -17,7 +17,13 @@
         <module>springbootjackson</module>
         <module>sprinbootgson</module>
         <module>springbootfastjson</module>
+        <module>springbootcors</module>
+        <module>springbootaop</module>
+        <module>springbooterror</module>
         <module>springbootfileupload</module>
+        <module>springbootservletfilterlistener</module>
+        <module>springbootrunner</module>
+        <module>springbootinterceptor</module>
     </modules>
 
 </project>
