@@ -9,7 +9,6 @@
     <description>springboot整合大全</description>
     <packaging>pom</packaging>
     <modules>
-        <module>springbootmybatis</module>
         <module>springbootswagger</module>
         <module>springbootbaseconfig</module>
         <module>springbootthymeleaf</module>
@@ -24,6 +23,9 @@
         <module>springbootservletfilterlistener</module>
         <module>springbootrunner</module>
         <module>springbootinterceptor</module>
+        <module>springbootjdbc</module>
+        <module>springbootmybatis</module>
+        <module>springbootjpa</module>
     </modules>
 
 </project>

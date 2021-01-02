@@ -1,13 +1,13 @@
-package com.example.springbootmybatis;
+package com.example.springbootjdbc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootmybatisApplication {
+public class SpringbootjdbcApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootmybatisApplication.class, args);
+        SpringApplication.run(SpringbootjdbcApplication.class, args);
     }
 
 }
