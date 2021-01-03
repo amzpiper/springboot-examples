@@ -26,6 +26,7 @@
         <module>springbootjdbc</module>
         <module>springbootmybatis</module>
         <module>springbootjpa</module>
+        <module>springbootredis</module>
     </modules>
 
 </project>
