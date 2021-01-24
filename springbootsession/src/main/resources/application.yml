@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  redis:
+    database: 0
+    host: 39.106.63.189
+    port: 6379
+    password: Dzwxszwm1202
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+        min-idle: 0

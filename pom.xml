@@ -27,6 +27,7 @@
         <module>springbootmybatis</module>
         <module>springbootjpa</module>
         <module>springbootredis</module>
+        <module>springbootsession</module>
     </modules>
 
 </project>
