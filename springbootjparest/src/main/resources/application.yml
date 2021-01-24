@@ -12,3 +12,12 @@ spring:
       ddl-auto: update
     database: mysql
     show-sql: true
+  data:
+    rest:
+      default-page-size: 20
+      page-param-name: page
+      limit-param-name: size
+      sort-param-name: sort
+      base-path: /api
+      return-body-on-create: true
+      return-body-on-update: true
