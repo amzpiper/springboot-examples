@@ -19,6 +19,10 @@
 ## springbootjpa
 ## springbootredis
 ## springbootredis集群
+## springbootmango-wait
+## springbootmango集群-wait
 ## springbootsession共享
 ## springbootjparest
+## springbootmangorest-wait
 ## springbootdevtools
+## springboottest

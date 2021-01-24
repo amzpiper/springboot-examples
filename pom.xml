@@ -30,6 +30,7 @@
         <module>springbootsession</module>
         <module>springbootjparest</module>
         <module>springbootdevtools</module>
+        <module>springboottest</module>
     </modules>
 
 </project>
