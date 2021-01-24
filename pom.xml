@@ -28,6 +28,7 @@
         <module>springbootjpa</module>
         <module>springbootredis</module>
         <module>springbootsession</module>
+        <module>springbootjparest</module>
     </modules>
 
 </project>
