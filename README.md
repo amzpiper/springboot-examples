@@ -26,3 +26,4 @@
 ## springbootmangorest-wait
 ## springbootdevtools
 ## springboottest
+## springbootcacheehcache

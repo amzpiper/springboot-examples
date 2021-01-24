@@ -31,6 +31,7 @@
         <module>springbootjparest</module>
         <module>springbootdevtools</module>
         <module>springboottest</module>
+        <module>springbootcacheehcache</module>
     </modules>
 
 </project>
