@@ -1,0 +1,11 @@
+spring:
+  devtools:
+    restart:
+      # 该目录下修改后不会自动编译和重启
+      exclude: static/**
+      # 该目录下修改后会自动编译和重启
+      additional-paths: src/main/resources/static
+      trigger-file: .trigger-file
+      enabled: false
+    livereload:
+      enabled: false

@@ -10,7 +10,7 @@ import javax.servlet.http.HttpSession;
 @RestController
 public class HelloController {
 
-    @Value("${server.port}")
+//    @Value("${server.port}")
     String port;
 
     @PostMapping("/save")

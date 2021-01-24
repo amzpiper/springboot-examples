@@ -29,6 +29,7 @@
         <module>springbootredis</module>
         <module>springbootsession</module>
         <module>springbootjparest</module>
+        <module>springbootdevtools</module>
     </modules>
 
 </project>
