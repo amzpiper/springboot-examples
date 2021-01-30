@@ -1,0 +1,24 @@
+# \u5E94\u7528\u540D\u79F0
+spring:
+  application:
+    name: springbootcacheredis
+  cache:
+    cache-names: c1,c2
+    redis:
+      time-to-live: 1800s
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password: 123@456
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1ms
+        max-idle: 8
+        min-idle: 0
+
+# \u5E94\u7528\u670D\u52A1 WEB \u8BBF\u95EE\u7AEF\u53E3
+server:
+  port: 8080
+

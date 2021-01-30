@@ -32,6 +32,7 @@
         <module>springbootdevtools</module>
         <module>springboottest</module>
         <module>springbootcacheehcache</module>
+        <module>springbootcacheredis</module>
     </modules>
 
 </project>
